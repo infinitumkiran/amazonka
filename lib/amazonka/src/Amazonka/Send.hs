@@ -44,6 +44,7 @@ sendEither env =
 -- See 'sendEither'.
 send ::
   ( MonadResource m,
+    RemoveInstructions a,
     AWSRequest a,
     Typeable a,
     Typeable (AWSResponse a)
