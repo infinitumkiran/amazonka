@@ -79,6 +79,38 @@ test-suite amazonka-sts-test
     Test.Amazonka.STS
     Test.Amazonka.STS.Internal
 
+  default-extensions:
+    NoImplicitPrelude
+    ConstraintKinds
+    DataKinds
+    DefaultSignatures
+    DeriveAnyClass
+    DeriveFoldable
+    DeriveFunctor
+    DeriveGeneric
+    DeriveTraversable
+    DerivingStrategies
+    DerivingVia
+    DuplicateRecordFields
+    FlexibleContexts
+    FlexibleInstances
+    GADTs
+    GeneralizedNewtypeDeriving
+    LambdaCase
+    NamedFieldPuns
+    OverloadedStrings
+    PackageImports
+    PatternSynonyms
+    RankNTypes
+    RecordWildCards
+    ScopedTypeVariables
+    StandaloneDeriving
+    StrictData
+    TupleSections
+    TypeApplications
+    TypeFamilies
+    ViewPatterns
+
   build-depends:
     , amazonka-core         >=2.0 && <2.1
     , amazonka-sts
