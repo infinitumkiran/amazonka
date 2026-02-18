@@ -9,7 +9,7 @@
 -- Portability : non-portable (GHC extensions)
 module Main (main) where
 
-import Prelude (IO)
+import Prelude
 import Test.Amazonka.STS
 import Test.Amazonka.STS.Internal
 import Test.Tasty

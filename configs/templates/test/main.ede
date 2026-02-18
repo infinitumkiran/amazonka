@@ -4,7 +4,13 @@
 --
 module Main (main) where
 
-import Prelude (IO)
+import Prelude
+import Test.Tasty
+{% for import in moduleImports %}
+import {{ import.value }}
+{% endfor %}
+
+main :: IO ()
 main = defaultMain $ testGroup "{{ serviceAbbrev }}"
     [ testGroup "tests"    tests
     , testGroup "fixtures" fixtures
