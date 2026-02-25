@@ -13,6 +13,7 @@ where
 import Amazonka.Core (AWSPager, AWSRequest, AWSResponse, Error)
 import Amazonka.Env (Env, Env' (..))
 import qualified Amazonka.HTTP as HTTP
+import Amazonka.S3.Encryption.Instructions
 import qualified Amazonka.Pager as Pager
 import Amazonka.Prelude
 import qualified Amazonka.Waiter as Waiter
