@@ -1,4 +1,4 @@
-{-# LANGUAGE DuplicateRecordFields #-}
+{-# LANGUAGE DisambiguateRecordFields #-}
 {-# LANGUAGE NoImplicitPrelude        #-}
 {-# LANGUAGE OverloadedStrings        #-}
 {-# LANGUAGE StrictData               #-}
